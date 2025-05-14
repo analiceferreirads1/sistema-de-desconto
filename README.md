@@ -4,7 +4,7 @@ Este projeto é uma aplicação simples que calcula o desconto aplicado com base
 
 ## 📷 Demonstração
 
-![screenshot](./screenshot.jpeg)
+![screenshot](./screenshot.png)
 
 👉 [Acesse o projeto online](https://analiceferreirads1.github.io/sistema-de-desconto/)
 
@@ -12,41 +12,29 @@ Este projeto é uma aplicação simples que calcula o desconto aplicado com base
 
 ## 🚀 Funcionalidades
 
-- **Inserção da categoria do cliente**: O usuário escolhe entre Premium, Ouro ou Prata.
-- **Inserção do valor da compra**: O valor é inserido em um campo de número.
-- **Cálculo automático do desconto**: O cálculo é feito com base na categoria e no valor.
-- **Exibição do valor final com desconto**: O valor com o desconto aplicado é mostrado ao usuário.
-- **Interface simples, clara e responsiva**: A interface é projetada para ser fácil de usar em dispositivos móveis e desktop.
+- Inserção da categoria do cliente.
+- Inserção do valor da compra.
+- Cálculo automático do desconto.
+- Exibição do valor final com desconto.
+- Interface simples, clara e responsiva.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla)**
+- **HTML5**: Estrutura da página, como títulos, botões e entradas.
+- **CSS3**: Estiliza a página, deixando ela bonita e agradável.
+- **JavaScript**: Adiciona a funcionalidade de cálculo do desconto e interação com o usuário.
 
 ---
 
 ## 🧠 Aprendizados
 
-- **Manipulação do DOM**: Aprendi a manipular os elementos da página usando JavaScript.
-- **Eventos em JavaScript**: Tratei eventos como `click` para interações com o usuário.
-- **Lógica de condições e cálculos**: Criei uma lógica para calcular o desconto dependendo da categoria do cliente.
-- **Estilização com CSS moderno**: Utilizei técnicas de estilização responsiva para garantir boa visualização em dispositivos móveis.
-- **Publicação com GitHub Pages**: Aprendi a publicar projetos diretamente no GitHub Pages, facilitando o acesso remoto.
-
----
-
-## 🎯 Objetivo do Projeto
-
-O objetivo deste projeto foi criar uma aplicação simples para cálculo de descontos de clientes, com base em sua categoria. A ideia surgiu de um problema real, em que negócios precisam aplicar descontos personalizados dependendo do perfil de seus clientes.
-
----
-
-## 🔧 Desafios e Soluções
-
-Um dos maiores desafios foi garantir que a interface fosse responsiva e funcionasse bem tanto em telas grandes quanto pequenas. Para resolver isso, utilizei técnicas modernas de CSS, como flexbox e media queries.
+- Manipulação do DOM: Aprendi como interagir com os elementos da página (como botões e entradas de texto).
+- Eventos em JavaScript: Aprendi como capturar ações do usuário, como cliques e mudanças de valor.
+- Lógica de condições e cálculos: Aprendi a lógica por trás dos descontos, dependendo da categoria do cliente.
+- Estilização com CSS moderno: Usei recursos como box-shadow, border-radius e responsividade para melhorar a aparência e usabilidade.
+- Publicação com GitHub Pages: Aprendi como publicar meu projeto na web de forma gratuita.
 
 ---
 
@@ -60,7 +48,7 @@ git clone https://github.com/analiceferreirads1/sistema-de-desconto.git
 cd sistema-de-desconto
 
 # Abra o arquivo index.html no navegador
-📁 Estrutura de Arquivos:
+📁 Estrutura de Arquivos
 sistema-de-desconto/
 │
 ├── index.html
@@ -69,10 +57,10 @@ sistema-de-desconto/
 ├── README.md
 └── screenshot.png
 📌 Status do Projeto
+
 ✅ Projeto finalizado e publicado!
-
 👩‍💻 Autora
+
 Desenvolvido por Analice Ferreira
+
 🔗 [LinkedIn] www.linkedin.com/in/analiceferreirads
-
-

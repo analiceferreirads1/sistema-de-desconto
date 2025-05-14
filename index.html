@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desconto por Cliente</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class=" container">
-    <h1>Calcular Desconto</h1>
+    <header class="cabecalho">
+        <h2>🔖 Sistema de Descontos</h2>
+        <p>Simule o desconto aplicado com base na categoria do cliente</p>
+    </header>
+    <div class="container">
+        <h1>Calcular Desconto</h1>
 
-    <p>Tipo de Cliente</p>
-    <input type="text" id="tipoCliente" placeholder="Digite: Premium , Ouro ou Prata">
+        <p>Tipo de Cliente</p>
+        <select id="tipoCliente">
+            <option value="">Selecione uma categoria</option>
+            <option value="premium">Premium</option>
+            <option value="ouro">Ouro</option>
+            <option value="prata">Prata</option>
+        </select>
 
-    <p> Valor da Compra</p>
-    <input type="number" id="valorCompra" placeholder="Digite o vaor da compra">
+        <p> Valor da Compra</p>
+        <input type="number" id="valorCompra" placeholder="Digite o valor da compra">
 
-    <button id="calcularBtn"> Calcular Desconto</button>
-    <p id="mensagemDesconto"></p>
+        <button id="calcularBtn"> Calcular Desconto</button>
+        <p id="mensagemDesconto"></p>
     </div>
+
+    <footer class="rodape">
+        <p>Desenvolvido por <strong>Analice Ferreira</strong> 💻</p>
+        <p>
+            <a href="https://github.com/analiceferreirads1" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/analiceferreirads" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
