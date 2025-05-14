@@ -1,0 +1,81 @@
+body{
+
+font-family: Arial, sans-serif;
+background-color: #f4f6f8;
+text-align: center;
+padding: 50px 20px;
+margin: 0;
+}
+
+h1{
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+input{
+    padding: 12px;
+    font-size: 16px;
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+button{
+padding: 12px 25px;
+font-size: 16px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+
+}
+
+#mensagemDesconto {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a;
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 90%;
+}
+.container{
+max-width: 500px;
+margin: auto;
+background-color: white;
+padding: 40px 30px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 600px) {
+  input {
+    width: 90%;
+  }
+
+  .container {
+    padding: 30px 15px;
+  }
+}
